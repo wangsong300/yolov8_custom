@@ -1,0 +1,4 @@
+train: ./train #folder location for training dataset. when using relative location, the root is datasets folder
+val: ./val #folder location for validation dataset
+nc: 1 #number of classes
+names: ["Drawing Paper"] #class names, the order must follow the same order as the classes.txt
